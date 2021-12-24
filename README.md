@@ -7,7 +7,7 @@ Using the credit card credit dataset, I oversampled the data using the RandomOve
 
 ## Results
 
-### 1.Resampling Models
+### 1. Resampling Models
 #### Oversampling
 
 ##### Naive Random Oversampling
