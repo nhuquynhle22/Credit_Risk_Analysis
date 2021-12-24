@@ -12,6 +12,7 @@ Using the credit card credit dataset, I oversampled the data using the RandomOve
 #### Oversampling
 
 ##### Naive Random Oversampling
+![Navie Random Oversampling](https://user-images.githubusercontent.com/89143725/147320490-df724fbf-3945-4821-bcd0-6db6a5ce3198.png)
 
     - Accuracy: 61.6%
 
@@ -24,7 +25,8 @@ Using the credit card credit dataset, I oversampled the data using the RandomOve
         - Recall: 68%
         
 ##### SMOTE Oversampling
-  
+  ![SMOTE Oversampling](https://user-images.githubusercontent.com/89143725/147320496-936a6685-1376-4e66-93c8-8dce3fc6e487.png)
+
     - Accuracy: 62.3%
 
         High Risk: 
@@ -38,7 +40,8 @@ Using the credit card credit dataset, I oversampled the data using the RandomOve
 #### Undersampling
 
 ##### Cluster Centroids
-   
+   ![Undersampling Cluster Centroids](https://user-images.githubusercontent.com/89143725/147320519-afdf7104-e75c-4bb0-a926-93001559baf7.png)
+
     - Accuracy: 62.3%
 
         High Risk: 
@@ -55,7 +58,8 @@ Using the credit card credit dataset, I oversampled the data using the RandomOve
 #### Combination (Over and Under) Sampling
 
 ##### SMOTEENN
-    
+    ![Combination Sampling SMOTEENN](https://user-images.githubusercontent.com/89143725/147320534-87ab167e-7f92-45a5-8e8e-cc57cb971b73.png)
+
     - Accuracy: 61.6%
 
         High Risk: 
@@ -69,6 +73,7 @@ Using the credit card credit dataset, I oversampled the data using the RandomOve
 ### 3. Ensemble Classifiers
 
 ##### Balanced Random Forest Classifier
+![Balanced Random Forest Classifier](https://user-images.githubusercontent.com/89143725/147320539-02bb26d7-aa70-4b37-ab00-973649dd48b9.png)
 
     - Accuracy: 78.8%
 
@@ -81,6 +86,7 @@ Using the credit card credit dataset, I oversampled the data using the RandomOve
         - Recall: 91%
 
 ##### Easy Ensemble Classifier
+![Easy Ensemble AdaBoost Classifier](https://user-images.githubusercontent.com/89143725/147320547-832141d2-1d93-4971-8c3f-684dc642a34c.png)
 
     - Accuracy: 93.2%
 
