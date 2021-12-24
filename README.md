@@ -6,48 +6,48 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 Using the credit card credit dataset, I oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, I compared two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Finally, I evaluated the performance of these models and made a written recommendation on whether they should be used to predict credit risk.
 
-## **Results**
+## Results
 
 ### 1.Resampling Models
 #### Oversampling
 
 ##### Naive Random Oversampling
 
-    * Accuracy: 61.6%
+    - Accuracy: 61.6%
 
         High Risk: 
-        * Precision: 1%
-        * Recall: 61%
+        - Precision: 1%
+        - Recall: 61%
 
         Low Risk:
-        * Precision: 100%
-        * Recall: 68%
+        - Precision: 100%
+        - Recall: 68%
         
 ##### SMOTE Oversampling
   
-    * Accuracy: 62.3%
+    - Accuracy: 62.3%
 
         High Risk: 
-        * Precision: 1%
-        * Recall: 61%
+        - Precision: 1%
+        - Recall: 61%
         
         Low Risk:
-        * Precision: 100%
-        * Recall:  64%
+        - Precision: 100%
+        - Recall:  64%
 
 #### Undersampling
 
 ##### Cluster Centroids
    
-    * Accuracy: 62.3%
+    - Accuracy: 62.3%
 
         High Risk: 
-        * Precision: 1% 
-        * Recall: 57%
+        - Precision: 1% 
+        - Recall: 57%
         
         Low Risk:
-        * Precision: 100%
-        * Recall:  45%
+        - Precision: 100%
+        - Recall:  45%
 
 
 ### 2. SMOTEENN Algorithm
@@ -56,41 +56,41 @@ Using the credit card credit dataset, I oversampled the data using the RandomOve
 
 ##### SMOTEENN
     
-    * Accuracy: 61.6%
+    - Accuracy: 61.6%
 
         High Risk: 
-        * Precision: 1%
-        * Recall: 69%
+        - Precision: 1%
+        - Recall: 69%
         
         Low Risk:
-        * Precision: 100%
-        * Recall:  54%
+        - Precision: 100%
+        - Recall:  54%
 
 ### 3. Ensemble Classifiers
 
 ##### Balanced Random Forest Classifier
 
-    Accuracy: 78.8%
+    - Accuracy: 78.8%
 
         High Risk: 
-        * Precision: 4%
-        * Recall: 67%
+        - Precision: 4%
+        - Recall: 67%
         
         Low Risk:
-        * Precision: 100%
-        * Recall: 91%
+        - Precision: 100%
+        - Recall: 91%
 
 ##### Easy Ensemble Classifier
 
-    * Accuracy: 93.2%
+    - Accuracy: 93.2%
 
         High Risk: 
-        * Precision: 4%
-        * Recall: 67%
+        - Precision: 4%
+        - Recall: 67%
         
         Low Risk:
-        * Precision: 100%
-        * Recall:  91%
+        - Precision: 100%
+        - Recall:  91%
 
 
 ## Summary
